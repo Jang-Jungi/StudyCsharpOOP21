@@ -9,7 +9,7 @@ namespace ClassTestApp
     class Animal
     {
         private int UniqueID { get; set; }
-        protected string Name { get; set; }
+        private string Name { get; set; }
 
         public void Eat(string meal)
         {
