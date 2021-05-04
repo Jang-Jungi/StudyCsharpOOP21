@@ -30,8 +30,9 @@ namespace ClassTestApp
             coco.Meow();
             
             
-            Cat noname = new Cat("은색", 3);  // 새로운 생성자
-            noname.Name = "야옹이";
+            Cat noname = new Cat("야옹이","은색", 3);  // 새로운 생성자
+            //noname.Name = "야옹이";
+            noname.Meow();
             noname.Sleep();
 
             var list = (First :"Cat", Second: "Dog", Third: "Pig",55);  // 튜플!!
