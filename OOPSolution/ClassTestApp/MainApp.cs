@@ -40,6 +40,8 @@ namespace ClassTestApp
             Console.WriteLine($"튜플 두번째 : {list.Item2}");
             Console.WriteLine($"튜플 세번째 : {list.Item3}");
             Console.WriteLine($"튜플 네번째 : {list.Item4}");
+
+            //Animal allCat = new Cat();
         }
     }
 }
