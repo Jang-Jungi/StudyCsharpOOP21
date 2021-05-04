@@ -33,8 +33,7 @@ namespace ClassTestApp
             Cat noname = new Cat("야옹이","은색", 3);  
             //noname.Name = "야옹이";
             noname.Meow();
-            coco.Sleep();
-
+            noname.Sleep();
 
             var list = (First :"Cat", Second: "Dog", Third: "Pig",55);  // 튜플!!
             Console.WriteLine($"튜플 첫번째 : {list.Item1}");
