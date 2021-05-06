@@ -2,7 +2,7 @@
 
 namespace ArrayClassTestApp //p.365
 {
-    class Program
+    class MainApp
     {
         static void Main(string[] args)
         {
