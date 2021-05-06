@@ -30,7 +30,7 @@ namespace ArrayTestApp
 
             // 평균
             float average = (float) sum / scores.Length;
-            Console.WriteLine($"수학 점수 총합은 {sum}, 평균은 {average} 입니다.");
+            Console.WriteLine($"수학 점수 총합 : {sum}, 평균 : {average} 입니다.");
         }
     }
 }
