@@ -29,7 +29,7 @@ namespace ExceptionTestApp
             {
                 string message = null;
                 Console.WriteLine(message.Length);
-                    var result = list[1] / 0;
+                    var result = list[1] / 10;
                 for (int i = 0; i < 5; i++)
                 {
                     Console.WriteLine(list[i]);
@@ -55,6 +55,11 @@ namespace ExceptionTestApp
             catch (Exception ex)
             {
                 Console.WriteLine($"예외발생 : { ex.Message}");  // 모든 예외사항 포함
+            }
+            finally
+            {
+                Console.WriteLine("Finally, 언제든지 실행됨");
+
             }
 
             Console.WriteLine("프로그램 종료");
