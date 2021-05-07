@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace IndexerTestApp
 {
-    class MainAppr : IEquatable,IEnumerator
+    class MainApp
 
     {
         static void Main(string[] args)
