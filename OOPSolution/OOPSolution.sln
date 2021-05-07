@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericMyListApp", "Generic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericCollectionApp", "GenericCollectionApp\GenericCollectionApp.csproj", "{2EA99500-DCF4-4D39-A85C-27045B87D557}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionTestApp", "ExceptionTestApp\ExceptionTestApp.csproj", "{7A967FF1-BAE1-434D-BA8C-9CF8542C9CCF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{2EA99500-DCF4-4D39-A85C-27045B87D557}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EA99500-DCF4-4D39-A85C-27045B87D557}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EA99500-DCF4-4D39-A85C-27045B87D557}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A967FF1-BAE1-434D-BA8C-9CF8542C9CCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A967FF1-BAE1-434D-BA8C-9CF8542C9CCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A967FF1-BAE1-434D-BA8C-9CF8542C9CCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A967FF1-BAE1-434D-BA8C-9CF8542C9CCF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
