@@ -11,17 +11,23 @@ namespace IndexerTestApp
         {
             Console.WriteLine("MyList 예제");
 
-            MyList mylist = new();
+            MyList list = new();  
             for (int i = 0; i < 5; i++)
             {
-                mylist[i] = i + 1; //1~5
+                list[i] = i + 1; //1~5 this[index] set값
             }
 
-            for (int i = 0; i < mylist.Length; i++)
+            for (int i = 0; i < list.Length; i++)
             {
-                Console.WriteLine(mylist[i]);
+                Console.WriteLine(list[i]); //this[index] get값
             }
-           
+            
+            Console.WriteLine("Foreach가 이렇게 사용하기 힘듭니다");
+
+            foreach (var item in list)
+            {
+                Console.WriteLine(item); 
+            }
         }
     }
 }
