@@ -10,10 +10,10 @@ namespace DelegateChainTestApp
         {
 
             Calculate calc;
-            calc = delegate (int a, int b)
-            {
-                return a + b;
-            };
+            //무명 함수를 표현하는 방법
+            //calc = (int a, int b) => a + b; 람다식으로 간단하게 표현
+            calc = delegate (int a, int b)  {return a + b;};  
+
             Console.WriteLine($"a+b={calc(3,5)}"); // 익명 메소드 
 
             FireStation fireStation = new FireStation();
