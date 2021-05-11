@@ -59,17 +59,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileReadingTestApp", "FileR
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NLoggerTestApp", "NLoggerTestApp\NLoggerTestApp.csproj", "{69E6DA9C-37FC-4EBB-844C-14A1DC731A97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadTestApp", "ThreadTestApp\ThreadTestApp.csproj", "{F9EBE648-D97E-4EEC-BEC0-43E70D61FA83}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadTestApp", "ThreadTestApp\ThreadTestApp.csproj", "{F9EBE648-D97E-4EEC-BEC0-43E70D61FA83}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsThreadApp", "WinFormsThreadApp\WinFormsThreadApp.csproj", "{CCD47461-62CE-4B05-A332-20F1D1576AB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsThreadApp", "WinFormsThreadApp\WinFormsThreadApp.csproj", "{CCD47461-62CE-4B05-A332-20F1D1576AB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadLockTestApp", "ThreadLockTestApp\ThreadLockTestApp.csproj", "{0AB69C97-E856-4141-AF6B-B0DE5137403F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadLockTestApp", "ThreadLockTestApp\ThreadLockTestApp.csproj", "{0AB69C97-E856-4141-AF6B-B0DE5137403F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskTestApp", "TaskTestApp\TaskTestApp.csproj", "{3D8FBD94-A616-4153-994B-0138A528A65E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskTestApp", "TaskTestApp\TaskTestApp.csproj", "{3D8FBD94-A616-4153-994B-0138A528A65E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelTestApp", "ParallelTestApp\ParallelTestApp.csproj", "{0D160B65-F4D7-4599-8EA1-7FC00ACBF385}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParallelTestApp", "ParallelTestApp\ParallelTestApp.csproj", "{0D160B65-F4D7-4599-8EA1-7FC00ACBF385}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncTestApp", "AsyncTestApp\AsyncTestApp.csproj", "{7FB43FA3-98DE-4A15-972E-C4CA2C438986}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncTestApp", "AsyncTestApp\AsyncTestApp.csproj", "{7FB43FA3-98DE-4A15-972E-C4CA2C438986}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextEditorApp", "TextEditorApp\TextEditorApp.csproj", "{2F159AED-C4FD-456D-93BC-732049BF59FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -213,6 +215,10 @@ Global
 		{7FB43FA3-98DE-4A15-972E-C4CA2C438986}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FB43FA3-98DE-4A15-972E-C4CA2C438986}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FB43FA3-98DE-4A15-972E-C4CA2C438986}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F159AED-C4FD-456D-93BC-732049BF59FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F159AED-C4FD-456D-93BC-732049BF59FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F159AED-C4FD-456D-93BC-732049BF59FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F159AED-C4FD-456D-93BC-732049BF59FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
