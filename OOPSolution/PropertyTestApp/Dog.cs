@@ -17,14 +17,7 @@ namespace PropertyTestApp
             get { return this.name; }
             set { this.name = value; } */
         // 간단하게 만들어버림      >>>>   public string Name { get; set;}
-
-
-
-        public string Color
-        {
-            get; set;
-        } = "누런";
-
+        public string Color {get; set;} = "누런";
 
         public int Age
         {
